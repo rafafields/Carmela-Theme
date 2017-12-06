@@ -26,7 +26,14 @@ function carmela_theme_customize_register( $wp_customize ) {
 		) );
 	}
     
-    //Carmela Theme Options
+    //Removing sections
+    
+    $wp_customize->remove_section( 'background_image' );
+    $wp_customize->remove_section( 'header_image' );
+    $wp_customize->remove_section( 'static_front_page' );
+    $wp_customize->remove_section( 'colors' );
+    
+    //Adding Carmela Theme Section and Options
     
     $wp_customize->add_section( 'carmela' , array(
         'title'      => __('Carmela Theme','mytheme'),
