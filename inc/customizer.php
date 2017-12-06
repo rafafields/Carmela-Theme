@@ -25,6 +25,31 @@ function carmela_theme_customize_register( $wp_customize ) {
 			'render_callback' => 'carmela_theme_customize_partial_blogdescription',
 		) );
 	}
+    
+    //Carmela Theme Options
+    
+    $wp_customize->add_section( 'carmela' , array(
+        'title'      => __('Carmela Theme','mytheme'),
+        'priority'   => 30,
+    ) );
+    
+    $wp_customize->add_setting(
+          'carmela_phone', //give it an ID
+          array(
+              'default' => '666 666 666', // Give it a default
+          )
+      );
+      $wp_customize->add_control(
+         new WP_Customize_Control(
+             $wp_customize,
+             'carmela_custom_phone', //give it an ID
+             array(
+                 'label'      => __( 'Phone', 'mythemename' ), //set the label to appear in the Customizer
+                 'section'    => 'carmela', //select the section for it to appear under  
+                 'settings'   => 'carmela_phone' //pick the setting it applies to
+             )
+         )
+      );
 }
 add_action( 'customize_register', 'carmela_theme_customize_register' );
 
