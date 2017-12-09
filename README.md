@@ -1,4 +1,9 @@
-[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
+Carmela Theme
+===
+
+Hola! Carmela Theme es un tema de wordpress diseñado por Wondermochi. De momento está un poco como `_s` lo trajo al mundo, pero iremos subiendo cosas y completando un poco este documento.
+
+Dejamos el readme original de `_s` para más información y comentarios.
 
 _s
 ===
