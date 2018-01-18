@@ -1,4 +1,7 @@
+[![Build Status](https://travis-ci.org/rafafields/Carmela-Theme.svg?branch=dev)](https://travis-ci.org/rafafields/Carmela-Theme)
+
 Carmela Theme
+
 ===
 
 Hola! Carmela Theme es un tema de wordpress diseñado por Wondermochi. De momento está un poco como `_s` lo trajo al mundo, pero iremos subiendo cosas y completando un poco este documento.
